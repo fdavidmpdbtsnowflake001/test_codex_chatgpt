@@ -1,0 +1,11 @@
+name: 'test_codex_chatgpt'
+version: '1.0'
+config-version: 2
+
+profile: 'test_codex_chatgpt'
+
+model-paths: ['models']
+
+models:
+  test_codex_chatgpt:
+    materialized: view
